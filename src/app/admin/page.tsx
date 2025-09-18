@@ -42,6 +42,7 @@ export default function AdminDashboard() {
   const fetchDashboardData = async () => {
     setLoading(true);
     try {
+      console.log('Starting data fetch...');
       // Fetch all data in parallel
       const [ordersRes, productsRes, customersRes, promotionsRes, ticketsRes, shippingRes] = await Promise.all([
         fetch('/api/orders?limit=100'),
@@ -51,6 +52,7 @@ export default function AdminDashboard() {
         fetch('/api/support-tickets'),
         fetch('/api/shipping')
       ]);
+      console.log('All requests completed');
 
       // Check for any failed requests
       if (!ordersRes.ok) console.error('Orders API failed:', ordersRes.status, ordersRes.statusText);
