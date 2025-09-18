@@ -1,0 +1,229 @@
+[
+  {
+    "id": "ticket_001",
+    "ticketNumber": "CS-2024-001",
+    "customerId": "cust_003",
+    "customer": {
+      "firstName": "James",
+      "lastName": "Chen",
+      "email": "james.chen@email.com",
+      "phone": "+1-555-0303"
+    },
+    "subject": "Delayed shipment for Order CH-1003",
+    "description": "Hi, I placed an order 5 days ago (CH-1003) and it still shows as processing. Can you please provide an update on the shipping status?",
+    "status": "open",
+    "priority": "medium",
+    "category": "shipping_issue",
+    "assignedTo": "agent_001",
+    "orderId": "order_003",
+    "messages": [
+      {
+        "id": "msg_001",
+        "ticketId": "ticket_001",
+        "senderId": "cust_003",
+        "senderType": "customer",
+        "senderName": "James Chen",
+        "content": "Hi, I placed an order 5 days ago (CH-1003) and it still shows as processing. Can you please provide an update on the shipping status?",
+        "isInternal": false,
+        "createdAt": "2024-01-20T14:30:00Z"
+      },
+      {
+        "id": "msg_002",
+        "ticketId": "ticket_001",
+        "senderId": "agent_001",
+        "senderType": "agent",
+        "senderName": "Sarah Mitchell",
+        "content": "Hi James, thank you for contacting us. I've checked your order CH-1003 and can see that one item (GMT Navigator) shipped yesterday via UPS. The second item (Minute Repeater) is currently being prepared and should ship within 1-2 business days. I'll send you tracking information shortly.",
+        "isInternal": false,
+        "createdAt": "2024-01-20T15:45:00Z"
+      }
+    ],
+    "tags": ["shipping", "multi-item-order"],
+    "createdAt": "2024-01-20T14:30:00Z",
+    "updatedAt": "2024-01-20T15:45:00Z"
+  },
+  {
+    "id": "ticket_002",
+    "ticketNumber": "CS-2024-002",
+    "customerId": "cust_002",
+    "customer": {
+      "firstName": "Victoria",
+      "lastName": "Blackwood",
+      "email": "victoria.blackwood@email.com",
+      "phone": "+1-555-0202"
+    },
+    "subject": "Question about watch water resistance",
+    "description": "I'm considering purchasing the Ocean Explorer. Can you tell me if it's suitable for swimming and diving?",
+    "status": "resolved",
+    "priority": "low",
+    "category": "product_question",
+    "assignedTo": "agent_002",
+    "productId": "watch_003",
+    "messages": [
+      {
+        "id": "msg_003",
+        "ticketId": "ticket_002",
+        "senderId": "cust_002",
+        "senderType": "customer",
+        "senderName": "Victoria Blackwood",
+        "content": "I'm considering purchasing the Ocean Explorer. Can you tell me if it's suitable for swimming and diving?",
+        "isInternal": false,
+        "createdAt": "2024-01-19T11:20:00Z"
+      },
+      {
+        "id": "msg_004",
+        "ticketId": "ticket_002",
+        "senderId": "agent_002",
+        "senderType": "agent",
+        "senderName": "Michael Torres",
+        "content": "Hi Victoria! The Ocean Explorer is an excellent choice for water activities. It has a 300m water resistance rating, making it perfect for swimming, snorkeling, and recreational diving. The unidirectional rotating bezel helps track elapsed time underwater. It's also ISO 6425 certified as a professional dive watch.",
+        "isInternal": false,
+        "createdAt": "2024-01-19T11:35:00Z"
+      },
+      {
+        "id": "msg_005",
+        "ticketId": "ticket_002",
+        "senderId": "cust_002",
+        "senderType": "customer",
+        "senderName": "Victoria Blackwood",
+        "content": "Perfect! That's exactly what I was looking for. Thank you for the detailed information.",
+        "isInternal": false,
+        "createdAt": "2024-01-19T11:40:00Z"
+      }
+    ],
+    "tags": ["product-inquiry", "dive-watch"],
+    "createdAt": "2024-01-19T11:20:00Z",
+    "updatedAt": "2024-01-19T11:40:00Z",
+    "resolvedAt": "2024-01-19T11:40:00Z",
+    "satisfaction": {
+      "rating": 5,
+      "feedback": "Very helpful and knowledgeable response!",
+      "submittedAt": "2024-01-19T12:00:00Z"
+    }
+  },
+  {
+    "id": "ticket_003",
+    "ticketNumber": "CS-2024-003",
+    "customer": {
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "email": "robert.johnson@email.com",
+      "phone": "+1-555-0789"
+    },
+    "subject": "Warranty claim for Chronomaster Elite",
+    "description": "The crown on my Chronomaster Elite (purchased 8 months ago) has become loose and won't screw down properly. I'd like to initiate a warranty claim.",
+    "status": "pending",
+    "priority": "high",
+    "category": "technical_support",
+    "assignedTo": "agent_003",
+    "messages": [
+      {
+        "id": "msg_006",
+        "ticketId": "ticket_003",
+        "senderId": "robert_johnson",
+        "senderType": "customer",
+        "senderName": "Robert Johnson",
+        "content": "The crown on my Chronomaster Elite (purchased 8 months ago) has become loose and won't screw down properly. I'd like to initiate a warranty claim.",
+        "isInternal": false,
+        "createdAt": "2024-01-21T09:15:00Z"
+      },
+      {
+        "id": "msg_007",
+        "ticketId": "ticket_003",
+        "senderId": "agent_003",
+        "senderType": "agent",
+        "senderName": "Emma Davis",
+        "content": "Hello Robert, I'm sorry to hear about the issue with your Chronomaster Elite. This is certainly covered under our lifetime warranty. Could you please provide your order number or the serial number of the watch so I can locate your purchase record?",
+        "isInternal": false,
+        "createdAt": "2024-01-21T09:30:00Z"
+      },
+      {
+        "id": "msg_008",
+        "ticketId": "ticket_003",
+        "senderId": "agent_003",
+        "senderType": "agent",
+        "senderName": "Emma Davis",
+        "content": "Internal note: Check warranty database for recent crown issues with Chronomaster Elite batch CHR-2023-Q2",
+        "isInternal": true,
+        "createdAt": "2024-01-21T09:32:00Z"
+      }
+    ],
+    "tags": ["warranty", "crown-issue", "chronomaster"],
+    "createdAt": "2024-01-21T09:15:00Z",
+    "updatedAt": "2024-01-21T09:32:00Z"
+  },
+  {
+    "id": "ticket_004",
+    "ticketNumber": "CS-2024-004",
+    "customerId": "cust_004",
+    "customer": {
+      "firstName": "Sophia",
+      "lastName": "Anderson",
+      "email": "sophia.anderson@email.com",
+      "phone": "+1-555-0404"
+    },
+    "subject": "Return request for Art Deco Square",
+    "description": "I received the Art Deco Square yesterday but it's not quite what I expected. The size is smaller than I thought it would be. Can I return it?",
+    "status": "open",
+    "priority": "medium",
+    "category": "return_request",
+    "assignedTo": "agent_001",
+    "orderId": "order_004",
+    "productId": "watch_018",
+    "messages": [
+      {
+        "id": "msg_009",
+        "ticketId": "ticket_004",
+        "senderId": "cust_004",
+        "senderType": "customer",
+        "senderName": "Sophia Anderson",
+        "content": "I received the Art Deco Square yesterday but it's not quite what I expected. The size is smaller than I thought it would be. Can I return it?",
+        "isInternal": false,
+        "createdAt": "2024-01-21T16:20:00Z"
+      }
+    ],
+    "tags": ["return", "size-issue"],
+    "createdAt": "2024-01-21T16:20:00Z",
+    "updatedAt": "2024-01-21T16:20:00Z"
+  },
+  {
+    "id": "ticket_005",
+    "ticketNumber": "CS-2024-005",
+    "customer": {
+      "firstName": "David",
+      "lastName": "Williams",
+      "email": "david.williams@email.com"
+    },
+    "subject": "Billing inquiry about payment method",
+    "description": "I was charged twice for my recent order. My credit card shows two transactions for the same amount.",
+    "status": "urgent",
+    "priority": "urgent",
+    "category": "billing",
+    "assignedTo": "agent_004",
+    "messages": [
+      {
+        "id": "msg_010",
+        "ticketId": "ticket_005",
+        "senderId": "david_williams",
+        "senderType": "customer",
+        "senderName": "David Williams",
+        "content": "I was charged twice for my recent order. My credit card shows two transactions for the same amount.",
+        "isInternal": false,
+        "createdAt": "2024-01-21T10:45:00Z"
+      },
+      {
+        "id": "msg_011",
+        "ticketId": "ticket_005",
+        "senderId": "agent_004",
+        "senderType": "agent",
+        "senderName": "Lisa Parker",
+        "content": "Hi David, I sincerely apologize for this billing issue. I'm escalating this to our billing department immediately to resolve the duplicate charge. You should see a refund within 3-5 business days. I'll monitor this personally and update you daily until it's resolved.",
+        "isInternal": false,
+        "createdAt": "2024-01-21T11:00:00Z"
+      }
+    ],
+    "tags": ["billing", "duplicate-charge", "urgent"],
+    "createdAt": "2024-01-21T10:45:00Z",
+    "updatedAt": "2024-01-21T11:00:00Z"
+  }
+]

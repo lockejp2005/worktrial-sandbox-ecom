@@ -87,7 +87,7 @@ function transformJsonToCustomer(jsonCustomer: any): Customer {
   })) || [];
 
   return {
-    id: jsonCustomer.id.replace('cust_', ''),
+    id: jsonCustomer.id,
     email: jsonCustomer.email,
     firstName: jsonCustomer.firstName,
     lastName: jsonCustomer.lastName,

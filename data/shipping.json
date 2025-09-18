@@ -1,0 +1,233 @@
+{
+  "zones": [
+    {
+      "id": "zone_001",
+      "name": "North America",
+      "countries": ["US", "CA", "MX"],
+      "rates": [
+        {
+          "id": "rate_001",
+          "name": "Standard Shipping",
+          "description": "5-7 business days",
+          "price": 25.00,
+          "freeShippingThreshold": 5000,
+          "weightBased": true,
+          "weightMin": 0,
+          "weightMax": 1000,
+          "estimatedDelivery": "5-7 business days",
+          "carrier": "UPS",
+          "serviceCode": "UPS_GROUND",
+          "trackingAvailable": true,
+          "signatureRequired": false,
+          "insuranceIncluded": false,
+          "active": true
+        },
+        {
+          "id": "rate_002",
+          "name": "Express Shipping",
+          "description": "2-3 business days",
+          "price": 50.00,
+          "weightBased": true,
+          "weightMin": 0,
+          "weightMax": 1000,
+          "estimatedDelivery": "2-3 business days",
+          "carrier": "FedEx",
+          "serviceCode": "FEDEX_EXPRESS",
+          "trackingAvailable": true,
+          "signatureRequired": true,
+          "insuranceIncluded": true,
+          "active": true
+        },
+        {
+          "id": "rate_003",
+          "name": "White Glove Delivery",
+          "description": "Premium delivery service for high-value items",
+          "price": 0.00,
+          "weightBased": false,
+          "estimatedDelivery": "1-2 business days",
+          "carrier": "White Glove",
+          "serviceCode": "WG_PREMIUM",
+          "trackingAvailable": true,
+          "signatureRequired": true,
+          "insuranceIncluded": true,
+          "active": true
+        }
+      ],
+      "createdAt": "2023-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "zone_002",
+      "name": "Europe",
+      "countries": ["GB", "FR", "DE", "IT", "ES", "CH", "AT", "NL", "BE"],
+      "rates": [
+        {
+          "id": "rate_004",
+          "name": "EU Standard",
+          "description": "7-10 business days",
+          "price": 45.00,
+          "freeShippingThreshold": 7500,
+          "weightBased": true,
+          "weightMin": 0,
+          "weightMax": 1000,
+          "estimatedDelivery": "7-10 business days",
+          "carrier": "DHL",
+          "serviceCode": "DHL_STANDARD",
+          "trackingAvailable": true,
+          "signatureRequired": false,
+          "insuranceIncluded": true,
+          "active": true
+        },
+        {
+          "id": "rate_005",
+          "name": "EU Express",
+          "description": "3-5 business days",
+          "price": 85.00,
+          "weightBased": true,
+          "weightMin": 0,
+          "weightMax": 1000,
+          "estimatedDelivery": "3-5 business days",
+          "carrier": "DHL",
+          "serviceCode": "DHL_EXPRESS",
+          "trackingAvailable": true,
+          "signatureRequired": true,
+          "insuranceIncluded": true,
+          "active": true
+        }
+      ],
+      "createdAt": "2023-01-01T00:00:00Z",
+      "updatedAt": "2024-01-10T14:00:00Z"
+    },
+    {
+      "id": "zone_003",
+      "name": "Asia Pacific",
+      "countries": ["JP", "AU", "SG", "HK", "KR", "TW"],
+      "rates": [
+        {
+          "id": "rate_006",
+          "name": "APAC Standard",
+          "description": "10-14 business days",
+          "price": 65.00,
+          "freeShippingThreshold": 10000,
+          "weightBased": true,
+          "weightMin": 0,
+          "weightMax": 1000,
+          "estimatedDelivery": "10-14 business days",
+          "carrier": "FedEx",
+          "serviceCode": "FEDEX_INTERNATIONAL",
+          "trackingAvailable": true,
+          "signatureRequired": true,
+          "insuranceIncluded": true,
+          "active": true
+        }
+      ],
+      "createdAt": "2023-01-01T00:00:00Z",
+      "updatedAt": "2024-01-05T09:00:00Z"
+    }
+  ],
+  "carriers": [
+    {
+      "id": "carrier_001",
+      "name": "UPS",
+      "code": "UPS",
+      "logo": "https://logos.com/ups.png",
+      "trackingUrl": "https://www.ups.com/track?track=yes&trackNums={tracking_number}",
+      "apiEndpoint": "https://api.ups.com/v1",
+      "services": [
+        {
+          "id": "service_001",
+          "name": "UPS Ground",
+          "code": "UPS_GROUND",
+          "estimatedDays": 6,
+          "trackingSupported": true,
+          "signatureRequired": false,
+          "insuranceAvailable": true,
+          "maxWeight": 70000
+        },
+        {
+          "id": "service_002",
+          "name": "UPS Next Day Air",
+          "code": "UPS_NEXT_DAY",
+          "estimatedDays": 1,
+          "trackingSupported": true,
+          "signatureRequired": true,
+          "insuranceAvailable": true,
+          "maxWeight": 70000
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "carrier_002",
+      "name": "FedEx",
+      "code": "FEDEX",
+      "logo": "https://logos.com/fedex.png",
+      "trackingUrl": "https://www.fedex.com/fedextrack/?trknbr={tracking_number}",
+      "apiEndpoint": "https://api.fedex.com/v1",
+      "services": [
+        {
+          "id": "service_003",
+          "name": "FedEx Ground",
+          "code": "FEDEX_GROUND",
+          "estimatedDays": 5,
+          "trackingSupported": true,
+          "signatureRequired": false,
+          "insuranceAvailable": true,
+          "maxWeight": 68000
+        },
+        {
+          "id": "service_004",
+          "name": "FedEx Express",
+          "code": "FEDEX_EXPRESS",
+          "estimatedDays": 2,
+          "trackingSupported": true,
+          "signatureRequired": true,
+          "insuranceAvailable": true,
+          "maxWeight": 68000
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "carrier_003",
+      "name": "DHL",
+      "code": "DHL",
+      "logo": "https://logos.com/dhl.png",
+      "trackingUrl": "https://www.dhl.com/track?tracking-id={tracking_number}",
+      "apiEndpoint": "https://api.dhl.com/v1",
+      "services": [
+        {
+          "id": "service_005",
+          "name": "DHL Express",
+          "code": "DHL_EXPRESS",
+          "estimatedDays": 3,
+          "trackingSupported": true,
+          "signatureRequired": true,
+          "insuranceAvailable": true,
+          "maxWeight": 68000
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": "carrier_004",
+      "name": "White Glove",
+      "code": "WG",
+      "logo": "https://logos.com/whiteglove.png",
+      "trackingUrl": "https://tracking.chronos.com/{tracking_number}",
+      "services": [
+        {
+          "id": "service_006",
+          "name": "White Glove Premium",
+          "code": "WG_PREMIUM",
+          "estimatedDays": 1,
+          "trackingSupported": true,
+          "signatureRequired": true,
+          "insuranceAvailable": true,
+          "maxWeight": 50000
+        }
+      ],
+      "active": true
+    }
+  ]
+}
