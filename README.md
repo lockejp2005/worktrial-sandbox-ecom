@@ -6,7 +6,10 @@ Anyway, the backend is entirely built out, and the data is minimal. You are give
 
 Most of the base data can be static, you can just add JSON files to the ./data directory of what you want to include. What needs to be done properly is the interpretation of this data, and how it is fetched and displayed to the shop manager. You can also make changes to the main landing page to extend functionality, how about a basic checkout page for discount coupons? Or extends the products catalogue to include free flights to Zurich with the purchase of any watch.
 
+There is a for-you endpoint in the base project, you should work out a way to top 4 reccommend products to customer based off of their data. The front end sends the simulated users id (you can set this in db tab, it appends to localStorage then front end gets it and sends with request to for you endpoint). If you can, let the admin manage this logic in the dashboard as well. 
+
 The choice is yours, your job is to come up with functionally difficult and useful business components related to the management backend. Start with basic interpretation of the existing product and customer data - maybe some charts - then expand to revenue optimizing features and logistic management displays.  
 
 ## Run
 To run: npm run dev
+
