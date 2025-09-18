@@ -1,0 +1,1639 @@
+[
+  {
+    "id": "watch_001",
+    "name": "Chronomaster Elite",
+    "category": "Luxury Watches",
+    "subcategory": "Automatic",
+    "collection": "Heritage",
+    "price": 8500,
+    "cost": 3400,
+    "sku": "CHR-ELIT-001",
+    "brand": "CHRONOS",
+    "description": "Swiss automatic movement with moonphase complication",
+    "tags": [
+      "automatic",
+      "moonphase",
+      "swiss",
+      "luxury",
+      "heritage"
+    ],
+    "inventory": {
+      "inStock": 12,
+      "reserved": 2,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 5,
+      "reorderQuantity": 10
+    },
+    "ratings": {
+      "average": 5,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 12
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3135",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "waterResistance": "100m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Moonphase",
+        "Date",
+        "Day"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 3456,
+    "salesVelocity": 0.8,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.9,
+      "Q2": 1.1,
+      "Q3": 0.8,
+      "Q4": 1.2
+    },
+    "relatedProducts": [
+      "watch_002",
+      "watch_005",
+      "watch_009"
+    ],
+    "searchKeywords": [
+      "chronomaster",
+      "moonphase watch",
+      "swiss automatic",
+      "luxury watch",
+      "heritage collection"
+    ],
+    "createdAt": "2023-01-15T08:00:00Z",
+    "updatedAt": "2024-01-20T14:30:00Z",
+    "launchDate": "2023-02-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "CHR"
+  },
+  {
+    "id": "watch_002",
+    "name": "Meridian Perpetual",
+    "category": "Luxury Watches",
+    "subcategory": "Complication",
+    "collection": "Prestige",
+    "price": 45000,
+    "cost": 18000,
+    "sku": "MER-PERP-002",
+    "brand": "CHRONOS",
+    "description": "Perpetual calendar with platinum case",
+    "tags": [
+      "perpetual-calendar",
+      "platinum",
+      "complication",
+      "prestige",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 3,
+      "reserved": 1,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 2,
+      "reorderQuantity": 3
+    },
+    "ratings": {
+      "average": 5,
+      "count": 8,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 5100",
+      "caseMaterial": "Platinum",
+      "caseDiameter": "40mm",
+      "waterResistance": "50m",
+      "powerReserve": "120 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Perpetual Calendar",
+        "Moonphase",
+        "Leap Year Indicator"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 1234,
+    "salesVelocity": 0.2,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1,
+      "Q2": 0.8,
+      "Q3": 0.7,
+      "Q4": 1.5
+    },
+    "relatedProducts": [
+      "watch_001",
+      "watch_010",
+      "watch_015"
+    ],
+    "searchKeywords": [
+      "perpetual calendar",
+      "platinum watch",
+      "complication",
+      "luxury timepiece",
+      "prestige collection"
+    ],
+    "createdAt": "2023-01-20T10:00:00Z",
+    "updatedAt": "2024-01-18T09:15:00Z",
+    "launchDate": "2023-02-15T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 50,
+    "serialNumberPrefix": "MER"
+  },
+  {
+    "id": "watch_003",
+    "name": "Ocean Explorer",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Sport",
+    "price": 12000,
+    "cost": 4800,
+    "sku": "OCE-EXPL-003",
+    "brand": "CHRONOS",
+    "description": "Professional dive watch, 300m water resistance",
+    "tags": [
+      "dive-watch",
+      "sport",
+      "waterproof",
+      "professional",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 18,
+      "reserved": 3,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 8,
+      "reorderQuantity": 15
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 24,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 22
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3235",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "44mm",
+      "waterResistance": "300m",
+      "powerReserve": "70 hours",
+      "crystal": "Sapphire",
+      "bezel": "Unidirectional Rotating"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 5678,
+    "salesVelocity": 1.2,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.7,
+      "Q2": 1.3,
+      "Q3": 1.5,
+      "Q4": 0.5
+    },
+    "relatedProducts": [
+      "watch_004",
+      "watch_012",
+      "watch_016"
+    ],
+    "searchKeywords": [
+      "dive watch",
+      "ocean explorer",
+      "300m",
+      "sport watch",
+      "titanium"
+    ],
+    "createdAt": "2023-02-10T11:00:00Z",
+    "updatedAt": "2024-01-19T16:45:00Z",
+    "launchDate": "2023-03-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "OCE"
+  },
+  {
+    "id": "watch_004",
+    "name": "Classic Reserve",
+    "category": "Luxury Watches",
+    "subcategory": "Dress",
+    "collection": "Classic",
+    "price": 6800,
+    "cost": 2720,
+    "sku": "CLA-RESV-004",
+    "brand": "CHRONOS",
+    "description": "Minimalist design with 8-day power reserve",
+    "tags": [
+      "dress-watch",
+      "minimalist",
+      "classic",
+      "power-reserve",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 25,
+      "reserved": 4,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 10,
+      "reorderQuantity": 20
+    },
+    "ratings": {
+      "average": 4.8,
+      "count": 31,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 4,
+        "5": 26
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 2000",
+      "caseMaterial": "Rose Gold",
+      "caseDiameter": "39mm",
+      "waterResistance": "30m",
+      "powerReserve": "192 hours",
+      "crystal": "Sapphire",
+      "thickness": "8.5mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.02,
+    "viewCount": 4321,
+    "salesVelocity": 1.5,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.1,
+      "Q2": 0.9,
+      "Q3": 0.8,
+      "Q4": 1.2
+    },
+    "relatedProducts": [
+      "watch_001",
+      "watch_008",
+      "watch_013"
+    ],
+    "searchKeywords": [
+      "classic watch",
+      "dress watch",
+      "rose gold",
+      "power reserve",
+      "minimalist"
+    ],
+    "createdAt": "2023-03-05T09:00:00Z",
+    "updatedAt": "2024-01-17T11:20:00Z",
+    "launchDate": "2023-03-20T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "CLA"
+  },
+  {
+    "id": "watch_005",
+    "name": "Aviator Chronograph",
+    "category": "Luxury Watches",
+    "subcategory": "Haute Horlogerie",
+    "collection": "Masterpiece",
+    "price": 125000,
+    "cost": 50000,
+    "sku": "GRA-TOUR-005",
+    "brand": "CHRONOS",
+    "description": "Flying tourbillon with minute repeater",
+    "tags": [
+      "tourbillon",
+      "minute-repeater",
+      "haute-horlogerie",
+      "masterpiece",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 1,
+      "reserved": 0,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 1,
+      "reorderQuantity": 1
+    },
+    "ratings": {
+      "average": 5,
+      "count": 3,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 9000",
+      "caseMaterial": "White Gold",
+      "caseDiameter": "44mm",
+      "waterResistance": "30m",
+      "powerReserve": "96 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Flying Tourbillon",
+        "Minute Repeater",
+        "Power Reserve Indicator"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 892,
+    "salesVelocity": 0.1,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.8,
+      "Q2": 0.7,
+      "Q3": 0.6,
+      "Q4": 1.9
+    },
+    "relatedProducts": [
+      "watch_002",
+      "watch_010",
+      "watch_015"
+    ],
+    "searchKeywords": [
+      "tourbillon",
+      "minute repeater",
+      "haute horlogerie",
+      "grand complication",
+      "masterpiece"
+    ],
+    "createdAt": "2023-04-01T14:00:00Z",
+    "updatedAt": "2024-01-16T10:30:00Z",
+    "launchDate": "2023-05-01T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 10,
+    "serialNumberPrefix": "GRA"
+  },
+  {
+    "id": "watch_006",
+    "name": "Grand Tourbillon",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Professional",
+    "price": 9500,
+    "cost": 3800,
+    "sku": "AVI-CHRO-006",
+    "brand": "CHRONOS",
+    "description": "Pilot's chronograph with slide rule bezel",
+    "tags": [
+      "chronograph",
+      "aviator",
+      "pilot",
+      "sport",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 22,
+      "reserved": 3,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 10,
+      "reorderQuantity": 20
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 18,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 16
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 4130",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "43mm",
+      "waterResistance": "100m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Chronograph",
+        "Tachymeter",
+        "Slide Rule"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 3789,
+    "salesVelocity": 1.3,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.9,
+      "Q2": 1.2,
+      "Q3": 1.1,
+      "Q4": 0.8
+    },
+    "relatedProducts": [
+      "watch_003",
+      "watch_007",
+      "watch_011"
+    ],
+    "searchKeywords": [
+      "chronograph",
+      "aviator",
+      "pilot watch",
+      "slide rule",
+      "professional"
+    ],
+    "createdAt": "2023-04-15T10:00:00Z",
+    "updatedAt": "2024-01-21T13:00:00Z",
+    "launchDate": "2023-05-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "AVI"
+  },
+  {
+    "id": "watch_007",
+    "name": "Racing Carbon",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Motorsport",
+    "price": 11500,
+    "cost": 4600,
+    "sku": "RAC-HERI-007",
+    "brand": "CHRONOS",
+    "description": "Racing-inspired chronograph with carbon fiber dial",
+    "tags": [
+      "racing",
+      "chronograph",
+      "carbon-fiber",
+      "motorsport",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 15,
+      "reserved": 2,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 7,
+      "reorderQuantity": 15
+    },
+    "ratings": {
+      "average": 4.8,
+      "count": 21,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 17
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 4131",
+      "caseMaterial": "Titanium DLC",
+      "caseDiameter": "42mm",
+      "waterResistance": "100m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "dial": "Carbon Fiber"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 2987,
+    "salesVelocity": 1,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.8,
+      "Q2": 1.3,
+      "Q3": 1.4,
+      "Q4": 0.5
+    },
+    "relatedProducts": [
+      "watch_006",
+      "watch_011",
+      "watch_016"
+    ],
+    "searchKeywords": [
+      "racing watch",
+      "chronograph",
+      "carbon fiber",
+      "motorsport",
+      "titanium"
+    ],
+    "createdAt": "2023-05-10T11:00:00Z",
+    "updatedAt": "2024-01-20T15:00:00Z",
+    "launchDate": "2023-06-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "RAC"
+  },
+  {
+    "id": "watch_008",
+    "name": "Platinum Dress",
+    "category": "Luxury Watches",
+    "subcategory": "Heritage",
+    "collection": "Heritage",
+    "price": 15800,
+    "cost": 6320,
+    "sku": "VIN-1886-008",
+    "brand": "CHRONOS",
+    "description": "Tribute to our founding year with enamel dial",
+    "tags": [
+      "vintage",
+      "heritage",
+      "enamel",
+      "limited-edition",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 8,
+      "reserved": 1,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 3,
+      "reorderQuantity": 5
+    },
+    "ratings": {
+      "average": 5,
+      "count": 14,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 14
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 1886",
+      "caseMaterial": "Rose Gold",
+      "caseDiameter": "38mm",
+      "waterResistance": "30m",
+      "powerReserve": "65 hours",
+      "crystal": "Sapphire",
+      "dial": "Grand Feu Enamel"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 2345,
+    "salesVelocity": 0.6,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1,
+      "Q2": 0.9,
+      "Q3": 0.8,
+      "Q4": 1.3
+    },
+    "relatedProducts": [
+      "watch_001",
+      "watch_004",
+      "watch_013"
+    ],
+    "searchKeywords": [
+      "vintage",
+      "heritage",
+      "enamel dial",
+      "1886",
+      "limited edition"
+    ],
+    "createdAt": "2023-06-01T09:00:00Z",
+    "updatedAt": "2024-01-18T14:00:00Z",
+    "launchDate": "2023-06-15T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 186,
+    "serialNumberPrefix": "VIN"
+  },
+  {
+    "id": "watch_009",
+    "name": "Heritage 1886",
+    "category": "Luxury Watches",
+    "subcategory": "Complication",
+    "collection": "Classic",
+    "price": 8200,
+    "cost": 3280,
+    "sku": "LUN-PHAS-009",
+    "brand": "CHRONOS",
+    "description": "Elegant moonphase with pointer date",
+    "tags": [
+      "moonphase",
+      "pointer-date",
+      "classic",
+      "complication",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 20,
+      "reserved": 3,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 8,
+      "reorderQuantity": 15
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 27,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 25
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3155",
+      "caseMaterial": "White Gold",
+      "caseDiameter": "40mm",
+      "waterResistance": "50m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Moonphase",
+        "Pointer Date"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 4123,
+    "salesVelocity": 1.4,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.1,
+      "Q2": 0.9,
+      "Q3": 0.8,
+      "Q4": 1.2
+    },
+    "relatedProducts": [
+      "watch_001",
+      "watch_002",
+      "watch_013"
+    ],
+    "searchKeywords": [
+      "moonphase",
+      "lunar phase",
+      "pointer date",
+      "white gold",
+      "classic"
+    ],
+    "createdAt": "2023-06-20T11:00:00Z",
+    "updatedAt": "2024-01-19T16:00:00Z",
+    "launchDate": "2023-07-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "LUN"
+  },
+  {
+    "id": "watch_010",
+    "name": "Submersible Pro",
+    "category": "Luxury Watches",
+    "subcategory": "Haute Horlogerie",
+    "collection": "Masterpiece",
+    "price": 68000,
+    "cost": 27200,
+    "sku": "SKE-MAST-010",
+    "brand": "CHRONOS",
+    "description": "Fully skeletonized movement with hand engraving",
+    "tags": [
+      "skeleton",
+      "hand-engraved",
+      "haute-horlogerie",
+      "masterpiece",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 2,
+      "reserved": 0,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 1,
+      "reorderQuantity": 2
+    },
+    "ratings": {
+      "average": 5,
+      "count": 6,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 6
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 8000SK",
+      "caseMaterial": "Platinum",
+      "caseDiameter": "41mm",
+      "waterResistance": "30m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "special": "Hand-engraved movement"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 1567,
+    "salesVelocity": 0.2,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.7,
+      "Q2": 0.8,
+      "Q3": 0.6,
+      "Q4": 1.9
+    },
+    "relatedProducts": [
+      "watch_002",
+      "watch_005",
+      "watch_015"
+    ],
+    "searchKeywords": [
+      "skeleton watch",
+      "hand engraved",
+      "haute horlogerie",
+      "platinum",
+      "masterpiece"
+    ],
+    "createdAt": "2023-07-10T10:00:00Z",
+    "updatedAt": "2024-01-17T12:00:00Z",
+    "launchDate": "2023-08-01T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 25,
+    "serialNumberPrefix": "SKE"
+  },
+  {
+    "id": "watch_011",
+    "name": "Moonphase Master",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Professional",
+    "price": 10500,
+    "cost": 4200,
+    "sku": "GMT-NAVI-011",
+    "brand": "CHRONOS",
+    "description": "Dual timezone with rotating 24-hour bezel",
+    "tags": [
+      "gmt",
+      "dual-timezone",
+      "travel",
+      "professional",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 28,
+      "reserved": 4,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 12,
+      "reorderQuantity": 25
+    },
+    "ratings": {
+      "average": 4.8,
+      "count": 35,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 5,
+        "5": 29
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3285",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "41mm",
+      "waterResistance": "100m",
+      "powerReserve": "70 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "GMT",
+        "24-hour bezel"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 5234,
+    "salesVelocity": 1.8,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.2,
+      "Q2": 1.3,
+      "Q3": 0.9,
+      "Q4": 0.6
+    },
+    "relatedProducts": [
+      "watch_003",
+      "watch_006",
+      "watch_016"
+    ],
+    "searchKeywords": [
+      "gmt watch",
+      "navigator",
+      "dual timezone",
+      "travel watch",
+      "professional"
+    ],
+    "createdAt": "2023-07-25T13:00:00Z",
+    "updatedAt": "2024-01-21T10:00:00Z",
+    "launchDate": "2023-08-15T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "GMT"
+  },
+  {
+    "id": "watch_012",
+    "name": "Skeleton Royale",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Sport",
+    "price": 14500,
+    "cost": 5800,
+    "sku": "DEE-MAST-012",
+    "brand": "CHRONOS",
+    "description": "Professional saturation diver, 1000m water resistance",
+    "tags": [
+      "dive-watch",
+      "deep-sea",
+      "1000m",
+      "professional",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 10,
+      "reserved": 2,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 5,
+      "reorderQuantity": 10
+    },
+    "ratings": {
+      "average": 5,
+      "count": 19,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 19
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3235HD",
+      "caseMaterial": "Titanium Grade 5",
+      "caseDiameter": "46mm",
+      "waterResistance": "1000m",
+      "powerReserve": "70 hours",
+      "crystal": "5mm Sapphire",
+      "bezel": "Ceramic Unidirectional"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 2876,
+    "salesVelocity": 0.7,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.6,
+      "Q2": 1.2,
+      "Q3": 1.8,
+      "Q4": 0.4
+    },
+    "relatedProducts": [
+      "watch_003",
+      "watch_011",
+      "watch_016"
+    ],
+    "searchKeywords": [
+      "deep sea",
+      "dive watch",
+      "1000m",
+      "saturation",
+      "titanium"
+    ],
+    "createdAt": "2023-08-10T14:00:00Z",
+    "updatedAt": "2024-01-19T11:00:00Z",
+    "launchDate": "2023-09-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "DEE"
+  },
+  {
+    "id": "watch_013",
+    "name": "Field Explorer",
+    "category": "Luxury Watches",
+    "subcategory": "Dress",
+    "collection": "Classic",
+    "price": 7500,
+    "cost": 3000,
+    "sku": "ULT-THIN-013",
+    "brand": "CHRONOS",
+    "description": "Ultra-thin profile at 6.3mm with micro-rotor",
+    "tags": [
+      "ultra-thin",
+      "dress-watch",
+      "micro-rotor",
+      "classic",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 30,
+      "reserved": 5,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 12,
+      "reorderQuantity": 25
+    },
+    "ratings": {
+      "average": 4.7,
+      "count": 42,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 6,
+        "5": 34
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 1200",
+      "caseMaterial": "White Gold",
+      "caseDiameter": "39mm",
+      "waterResistance": "30m",
+      "powerReserve": "50 hours",
+      "crystal": "Sapphire",
+      "thickness": "6.3mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.02,
+    "viewCount": 6543,
+    "salesVelocity": 2.1,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.2,
+      "Q2": 0.9,
+      "Q3": 0.7,
+      "Q4": 1.2
+    },
+    "relatedProducts": [
+      "watch_004",
+      "watch_008",
+      "watch_009"
+    ],
+    "searchKeywords": [
+      "ultra thin",
+      "dress watch",
+      "thin watch",
+      "micro rotor",
+      "white gold"
+    ],
+    "createdAt": "2023-08-25T10:00:00Z",
+    "updatedAt": "2024-01-20T14:00:00Z",
+    "launchDate": "2023-09-10T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "ULT"
+  },
+  {
+    "id": "watch_014",
+    "name": "Regulator Classic",
+    "category": "Luxury Watches",
+    "subcategory": "Complication",
+    "collection": "Sport",
+    "price": 28500,
+    "cost": 11400,
+    "sku": "ANN-CALE-014",
+    "brand": "CHRONOS",
+    "description": "Annual calendar with sporty design and rubber strap",
+    "tags": [
+      "annual-calendar",
+      "complication",
+      "sport",
+      "rubber-strap",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 6,
+      "reserved": 1,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 3,
+      "reorderQuantity": 5
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 11,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 10
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 5235",
+      "caseMaterial": "Steel with DLC coating",
+      "caseDiameter": "42mm",
+      "waterResistance": "120m",
+      "powerReserve": "70 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Annual Calendar",
+        "Moonphase"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1509941943102-10c232535736?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1509941943102-10c232535736?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1509941943102-10c232535736?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1509941943102-10c232535736?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 1987,
+    "salesVelocity": 0.5,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.9,
+      "Q2": 1,
+      "Q3": 0.8,
+      "Q4": 1.3
+    },
+    "relatedProducts": [
+      "watch_002",
+      "watch_009",
+      "watch_015"
+    ],
+    "searchKeywords": [
+      "annual calendar",
+      "sport complication",
+      "rubber strap",
+      "dlc coating",
+      "moonphase"
+    ],
+    "createdAt": "2023-09-15T11:00:00Z",
+    "updatedAt": "2024-01-18T10:00:00Z",
+    "launchDate": "2023-10-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "ANN"
+  },
+  {
+    "id": "watch_015",
+    "name": "Chronometer COSC",
+    "category": "Luxury Watches",
+    "subcategory": "Haute Horlogerie",
+    "collection": "Masterpiece",
+    "price": 450000,
+    "cost": 180000,
+    "sku": "GRA-SONN-015",
+    "brand": "CHRONOS",
+    "description": "Grande and petite sonnerie with minute repeater",
+    "tags": [
+      "grande-sonnerie",
+      "minute-repeater",
+      "haute-horlogerie",
+      "masterpiece",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 1,
+      "reserved": 0,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 1,
+      "reorderQuantity": 1
+    },
+    "ratings": {
+      "average": 5,
+      "count": 2,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 9500GS",
+      "caseMaterial": "Platinum 950",
+      "caseDiameter": "45mm",
+      "waterResistance": "30m",
+      "powerReserve": "72 hours",
+      "crystal": "Sapphire",
+      "complications": [
+        "Grande Sonnerie",
+        "Petite Sonnerie",
+        "Minute Repeater",
+        "Tourbillon"
+      ]
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 543,
+    "salesVelocity": 0.05,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.5,
+      "Q2": 0.5,
+      "Q3": 0.5,
+      "Q4": 2.5
+    },
+    "relatedProducts": [
+      "watch_002",
+      "watch_005",
+      "watch_010"
+    ],
+    "searchKeywords": [
+      "grande sonnerie",
+      "minute repeater",
+      "haute horlogerie",
+      "platinum",
+      "tourbillon"
+    ],
+    "createdAt": "2023-10-01T14:00:00Z",
+    "updatedAt": "2024-01-16T09:00:00Z",
+    "launchDate": "2023-11-01T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 5,
+    "serialNumberPrefix": "GRA-S"
+  },
+  {
+    "id": "watch_016",
+    "name": "Minute Repeater",
+    "category": "Luxury Watches",
+    "subcategory": "Sport",
+    "collection": "Explorer",
+    "price": 13800,
+    "cost": 5520,
+    "sku": "EXP-ANTA-016",
+    "brand": "CHRONOS",
+    "description": "Explorer watch tested in extreme conditions",
+    "tags": [
+      "explorer",
+      "extreme",
+      "sport",
+      "antarctic",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 14,
+      "reserved": 2,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 6,
+      "reorderQuantity": 12
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 16,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 15
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 3255",
+      "caseMaterial": "904L Steel",
+      "caseDiameter": "42mm",
+      "waterResistance": "300m",
+      "powerReserve": "70 hours",
+      "crystal": "Sapphire",
+      "special": "Anti-magnetic to 15,000 gauss"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 2345,
+    "salesVelocity": 0.9,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.1,
+      "Q2": 0.8,
+      "Q3": 0.6,
+      "Q4": 1.5
+    },
+    "relatedProducts": [
+      "watch_003",
+      "watch_011",
+      "watch_012"
+    ],
+    "searchKeywords": [
+      "expedition",
+      "explorer",
+      "antarctic",
+      "extreme conditions",
+      "anti-magnetic"
+    ],
+    "createdAt": "2023-10-20T12:00:00Z",
+    "updatedAt": "2024-01-21T08:00:00Z",
+    "launchDate": "2023-11-15T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 100,
+    "serialNumberPrefix": "EXP"
+  },
+  {
+    "id": "watch_017",
+    "name": "GMT Navigator",
+    "category": "Luxury Watches",
+    "subcategory": "Ladies",
+    "collection": "Elegance",
+    "price": 22500,
+    "cost": 9000,
+    "sku": "LAD-BRIL-017",
+    "brand": "CHRONOS",
+    "description": "Ladies' watch with diamond bezel and mother-of-pearl dial",
+    "tags": [
+      "ladies",
+      "diamond",
+      "mother-of-pearl",
+      "elegance",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 9,
+      "reserved": 2,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 4,
+      "reorderQuantity": 8
+    },
+    "ratings": {
+      "average": 5,
+      "count": 23,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 23
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 2236",
+      "caseMaterial": "18k Rose Gold",
+      "caseDiameter": "31mm",
+      "waterResistance": "100m",
+      "powerReserve": "55 hours",
+      "crystal": "Sapphire",
+      "diamonds": "1.2 carats total"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 3876,
+    "salesVelocity": 0.8,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.5,
+      "Q2": 1.2,
+      "Q3": 0.6,
+      "Q4": 0.7
+    },
+    "relatedProducts": [
+      "watch_018",
+      "watch_019",
+      "watch_020"
+    ],
+    "searchKeywords": [
+      "ladies watch",
+      "diamond watch",
+      "mother of pearl",
+      "rose gold",
+      "brilliance"
+    ],
+    "createdAt": "2023-11-05T10:00:00Z",
+    "updatedAt": "2024-01-19T13:00:00Z",
+    "launchDate": "2023-12-01T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "LAD"
+  },
+  {
+    "id": "watch_018",
+    "name": "Art Deco Square",
+    "category": "Luxury Watches",
+    "subcategory": "Ladies",
+    "collection": "Elegance",
+    "price": 5800,
+    "cost": 2320,
+    "sku": "PET-ELEG-018",
+    "brand": "CHRONOS",
+    "description": "Petite ladies' watch with minimalist design",
+    "tags": [
+      "ladies",
+      "petite",
+      "minimalist",
+      "elegance",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 35,
+      "reserved": 6,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 15,
+      "reorderQuantity": 30
+    },
+    "ratings": {
+      "average": 4.8,
+      "count": 38,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 5,
+        "5": 32
+      }
+    },
+    "specifications": {
+      "movement": "Quartz Cal. 1570",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "28mm",
+      "waterResistance": "50m",
+      "battery": "3 years",
+      "crystal": "Sapphire",
+      "thickness": "6.9mm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.02,
+    "viewCount": 5432,
+    "salesVelocity": 2.3,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1.4,
+      "Q2": 1.3,
+      "Q3": 0.7,
+      "Q4": 0.6
+    },
+    "relatedProducts": [
+      "watch_017",
+      "watch_019",
+      "watch_020"
+    ],
+    "searchKeywords": [
+      "ladies watch",
+      "petite",
+      "minimalist",
+      "small watch",
+      "elegance"
+    ],
+    "createdAt": "2023-11-20T11:00:00Z",
+    "updatedAt": "2024-01-20T10:00:00Z",
+    "launchDate": "2023-12-10T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "PET"
+  },
+  {
+    "id": "watch_019",
+    "name": "Knight Watch",
+    "category": "Luxury Watches",
+    "subcategory": "Ladies",
+    "collection": "Prestige",
+    "price": 85000,
+    "cost": 34000,
+    "sku": "DIA-CONS-019",
+    "brand": "CHRONOS",
+    "description": "High jewelry timepiece with full pavé diamonds",
+    "tags": [
+      "high-jewelry",
+      "diamond",
+      "pave",
+      "ladies",
+      "prestige"
+    ],
+    "inventory": {
+      "inStock": 1,
+      "reserved": 0,
+      "warehouse": "SWISS-VAULT",
+      "reorderPoint": 1,
+      "reorderQuantity": 1
+    },
+    "ratings": {
+      "average": 5,
+      "count": 4,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 4
+      }
+    },
+    "specifications": {
+      "movement": "Manual Cal. 1400",
+      "caseMaterial": "18k White Gold",
+      "caseDiameter": "33mm",
+      "waterResistance": "30m",
+      "powerReserve": "40 hours",
+      "crystal": "Sapphire",
+      "diamonds": "8.5 carats total"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0,
+    "viewCount": 876,
+    "salesVelocity": 0.1,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 1,
+      "Q2": 0.5,
+      "Q3": 0.3,
+      "Q4": 2.2
+    },
+    "relatedProducts": [
+      "watch_017",
+      "watch_020",
+      "watch_015"
+    ],
+    "searchKeywords": [
+      "high jewelry",
+      "diamond watch",
+      "pave diamonds",
+      "constellation",
+      "luxury ladies"
+    ],
+    "createdAt": "2023-12-01T14:00:00Z",
+    "updatedAt": "2024-01-17T11:00:00Z",
+    "launchDate": "2024-01-01T00:00:00Z",
+    "limitedEdition": true,
+    "limitedQuantity": 10,
+    "serialNumberPrefix": "DIA"
+  },
+  {
+    "id": "watch_020",
+    "name": "Urban Titanium",
+    "category": "Luxury Watches",
+    "subcategory": "Ladies",
+    "collection": "Sport",
+    "price": 7200,
+    "cost": 2880,
+    "sku": "SPO-CHIC-020",
+    "brand": "CHRONOS",
+    "description": "Sporty yet elegant ladies' watch with ceramic bezel",
+    "tags": [
+      "ladies",
+      "sport",
+      "ceramic",
+      "chic",
+      "swiss"
+    ],
+    "inventory": {
+      "inStock": 24,
+      "reserved": 3,
+      "warehouse": "SWISS-01",
+      "reorderPoint": 10,
+      "reorderQuantity": 20
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 29,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 27
+      }
+    },
+    "specifications": {
+      "movement": "Automatic Cal. 2232",
+      "caseMaterial": "Steel & Rose Gold",
+      "caseDiameter": "34mm",
+      "waterResistance": "200m",
+      "powerReserve": "55 hours",
+      "crystal": "Sapphire",
+      "bezel": "Ceramic"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop&rotation=90",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop&rotation=180",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop&rotation=270"
+    ],
+    "warranty": "Lifetime",
+    "returnRate": 0.01,
+    "viewCount": 3210,
+    "salesVelocity": 1.5,
+    "profitMargin": 0.6,
+    "seasonality": {
+      "Q1": 0.9,
+      "Q2": 1.4,
+      "Q3": 1.5,
+      "Q4": 0.2
+    },
+    "relatedProducts": [
+      "watch_017",
+      "watch_018",
+      "watch_011"
+    ],
+    "searchKeywords": [
+      "ladies sport",
+      "sport chic",
+      "ceramic bezel",
+      "two-tone",
+      "dive watch ladies"
+    ],
+    "createdAt": "2023-12-15T10:00:00Z",
+    "updatedAt": "2024-01-21T12:00:00Z",
+    "launchDate": "2024-01-10T00:00:00Z",
+    "limitedEdition": false,
+    "serialNumberPrefix": "SPO-L"
+  }
+]

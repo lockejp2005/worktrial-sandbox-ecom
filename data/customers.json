@@ -1,0 +1,564 @@
+[
+  {
+    "id": "cust_001",
+    "email": "alexander.sterling@email.com",
+    "firstName": "Alexander",
+    "lastName": "Sterling",
+    "phone": "+1-555-0101",
+    "dateOfBirth": "1975-03-15",
+    "gender": "male",
+    "createdAt": "2021-06-15T10:30:00Z",
+    "lastLoginAt": "2024-01-20T08:45:00Z",
+    "status": "active",
+    "tier": "platinum",
+    "lifetimeValue": 387500.00,
+    "address": {
+      "street": "1 Park Avenue",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10016",
+      "country": "USA"
+    },
+    "preferences": {
+      "newsletter": true,
+      "smsNotifications": false,
+      "pushNotifications": true,
+      "preferredCategories": ["Haute Horlogerie", "Complication", "Limited Edition"],
+      "communicationChannel": "email"
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "order_8234",
+        "date": "2024-01-15T14:30:00Z",
+        "total": 45000.00,
+        "items": [
+          {"productId": "watch_002", "quantity": 1, "price": 45000.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_7198",
+        "date": "2023-09-20T16:45:00Z",
+        "total": 83500.00,
+        "items": [
+          {"productId": "watch_005", "quantity": 1, "price": 125000.00},
+          {"productId": "watch_001", "quantity": 1, "price": 8500.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_6056",
+        "date": "2023-03-05T11:20:00Z",
+        "total": 68000.00,
+        "items": [
+          {"productId": "watch_010", "quantity": 1, "price": 68000.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_5234",
+        "date": "2022-11-15T09:30:00Z",
+        "total": 15800.00,
+        "items": [
+          {"productId": "watch_008", "quantity": 1, "price": 15800.00}
+        ],
+        "status": "delivered"
+      }
+    ],
+    "searchHistory": [
+      {"query": "tourbillon watches", "timestamp": "2024-01-14T18:20:00Z", "resultsClicked": ["watch_005", "watch_010"]},
+      {"query": "perpetual calendar platinum", "timestamp": "2024-01-14T18:15:00Z", "resultsClicked": ["watch_002"]},
+      {"query": "limited edition chronos", "timestamp": "2023-09-18T09:30:00Z", "resultsClicked": ["watch_008", "watch_016"]},
+      {"query": "haute horlogerie skeleton", "timestamp": "2023-03-03T15:40:00Z", "resultsClicked": ["watch_010"]},
+      {"query": "minute repeater", "timestamp": "2023-02-28T10:20:00Z", "resultsClicked": ["watch_005", "watch_015"]}
+    ],
+    "browsingBehavior": {
+      "averageSessionDuration": 1250,
+      "pagesPerSession": 25.3,
+      "bounceRate": 0.05,
+      "deviceTypes": {"mobile": 0.15, "desktop": 0.75, "tablet": 0.10},
+      "preferredBrowsingTime": "evening"
+    },
+    "cartAbandonment": [
+      {
+        "date": "2024-01-10T20:30:00Z",
+        "items": [{"productId": "watch_015", "quantity": 1}],
+        "cartValue": 450000.00,
+        "reason": "considering_options"
+      }
+    ],
+    "inferredInterests": {
+      "fromPhoneListening": [
+        {
+          "topic": "luxury_auctions",
+          "confidence": 0.92,
+          "detectedAt": "2024-01-18T19:30:00Z",
+          "context": "discussing_christies_watch_auction"
+        },
+        {
+          "topic": "swiss_vacation",
+          "confidence": 0.85,
+          "detectedAt": "2024-01-12T14:20:00Z",
+          "context": "planning_basel_world_visit"
+        },
+        {
+          "topic": "investment_watches",
+          "confidence": 0.88,
+          "detectedAt": "2024-01-08T12:15:00Z",
+          "context": "portfolio_diversification_discussion"
+        }
+      ],
+      "fromSocialMedia": ["luxury_lifestyle", "watch_collecting", "fine_automobiles", "private_aviation"],
+      "fromLocationData": ["country_club_member", "luxury_hotels", "art_galleries", "yacht_clubs"]
+    },
+    "customerScore": {
+      "loyaltyScore": 9.8,
+      "churnRisk": 0.02,
+      "recommendationAffinity": 0.95,
+      "pricesSensitivity": 0.10
+    }
+  },
+  {
+    "id": "cust_002",
+    "email": "victoria.blackwood@email.com",
+    "firstName": "Victoria",
+    "lastName": "Blackwood",
+    "phone": "+1-555-0202",
+    "dateOfBirth": "1980-07-22",
+    "gender": "female",
+    "createdAt": "2022-01-10T14:20:00Z",
+    "lastLoginAt": "2024-01-21T10:15:00Z",
+    "status": "active",
+    "tier": "gold",
+    "lifetimeValue": 156780.00,
+    "address": {
+      "street": "456 North Rodeo Drive",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "preferences": {
+      "newsletter": true,
+      "smsNotifications": true,
+      "pushNotifications": true,
+      "preferredCategories": ["Ladies", "Elegance", "Limited Edition"],
+      "communicationChannel": "sms"
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "order_8245",
+        "date": "2024-01-18T11:00:00Z",
+        "total": 22500.00,
+        "items": [
+          {"productId": "watch_017", "quantity": 1, "price": 22500.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_7201",
+        "date": "2023-10-05T15:30:00Z",
+        "total": 85000.00,
+        "items": [
+          {"productId": "watch_019", "quantity": 1, "price": 85000.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_6156",
+        "date": "2023-06-15T09:45:00Z",
+        "total": 14000.00,
+        "items": [
+          {"productId": "watch_018", "quantity": 1, "price": 5800.00},
+          {"productId": "watch_009", "quantity": 1, "price": 8200.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_5456",
+        "date": "2022-12-20T14:00:00Z",
+        "total": 7200.00,
+        "items": [
+          {"productId": "watch_020", "quantity": 1, "price": 7200.00}
+        ],
+        "status": "delivered"
+      }
+    ],
+    "searchHistory": [
+      {"query": "diamond ladies watches", "timestamp": "2024-01-17T14:00:00Z", "resultsClicked": ["watch_017", "watch_019"]},
+      {"query": "rose gold timepieces", "timestamp": "2023-10-03T10:20:00Z", "resultsClicked": ["watch_017", "watch_004"]},
+      {"query": "haute joaillerie", "timestamp": "2023-10-03T10:15:00Z", "resultsClicked": ["watch_019"]},
+      {"query": "moonphase ladies", "timestamp": "2023-06-10T16:30:00Z", "resultsClicked": ["watch_009"]}
+    ],
+    "browsingBehavior": {
+      "averageSessionDuration": 920,
+      "pagesPerSession": 18.7,
+      "bounceRate": 0.08,
+      "deviceTypes": {"mobile": 0.60, "desktop": 0.30, "tablet": 0.10},
+      "preferredBrowsingTime": "afternoon"
+    },
+    "cartAbandonment": [],
+    "inferredInterests": {
+      "fromPhoneListening": [
+        {
+          "topic": "jewelry_exhibitions",
+          "confidence": 0.91,
+          "detectedAt": "2024-01-16T15:00:00Z",
+          "context": "van_cleef_exhibition_discussion"
+        },
+        {
+          "topic": "charity_galas",
+          "confidence": 0.86,
+          "detectedAt": "2023-12-28T18:30:00Z",
+          "context": "planning_met_gala_outfit"
+        },
+        {
+          "topic": "art_collecting",
+          "confidence": 0.83,
+          "detectedAt": "2024-01-05T11:45:00Z",
+          "context": "sothebys_preview_discussion"
+        }
+      ],
+      "fromSocialMedia": ["haute_couture", "fine_jewelry", "art_collector", "philanthropy"],
+      "fromLocationData": ["rodeo_drive_regular", "private_galleries", "michelin_restaurants", "spa_resorts"]
+    },
+    "customerScore": {
+      "loyaltyScore": 9.2,
+      "churnRisk": 0.08,
+      "recommendationAffinity": 0.89,
+      "pricesSensitivity": 0.20
+    }
+  },
+  {
+    "id": "cust_003",
+    "email": "james.chen@email.com",
+    "firstName": "James",
+    "lastName": "Chen",
+    "phone": "+1-555-0303",
+    "dateOfBirth": "1985-11-30",
+    "gender": "male",
+    "createdAt": "2022-09-05T16:45:00Z",
+    "lastLoginAt": "2024-01-19T19:20:00Z",
+    "status": "active",
+    "tier": "gold",
+    "lifetimeValue": 98450.00,
+    "address": {
+      "street": "789 Post Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94108",
+      "country": "USA"
+    },
+    "preferences": {
+      "newsletter": true,
+      "smsNotifications": false,
+      "pushNotifications": true,
+      "preferredCategories": ["Sport", "Professional", "Complication"],
+      "communicationChannel": "email"
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "order_8240",
+        "date": "2024-01-16T17:00:00Z",
+        "total": 23500.00,
+        "items": [
+          {"productId": "watch_011", "quantity": 1, "price": 10500.00},
+          {"productId": "watch_016", "quantity": 1, "price": 13800.00}
+        ],
+        "status": "processing"
+      },
+      {
+        "orderId": "order_7189",
+        "date": "2023-08-22T13:15:00Z",
+        "total": 26500.00,
+        "items": [
+          {"productId": "watch_003", "quantity": 1, "price": 12000.00},
+          {"productId": "watch_012", "quantity": 1, "price": 14500.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_6098",
+        "date": "2023-04-30T11:00:00Z",
+        "total": 28500.00,
+        "items": [
+          {"productId": "watch_014", "quantity": 1, "price": 28500.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_5234",
+        "date": "2022-11-15T14:30:00Z",
+        "total": 9500.00,
+        "items": [
+          {"productId": "watch_006", "quantity": 1, "price": 9500.00}
+        ],
+        "status": "delivered"
+      }
+    ],
+    "searchHistory": [
+      {"query": "gmt watch travel", "timestamp": "2024-01-15T20:00:00Z", "resultsClicked": ["watch_011"]},
+      {"query": "dive watch 1000m", "timestamp": "2024-01-15T19:45:00Z", "resultsClicked": ["watch_012", "watch_003"]},
+      {"query": "expedition watches", "timestamp": "2024-01-15T19:40:00Z", "resultsClicked": ["watch_016"]},
+      {"query": "annual calendar sport", "timestamp": "2023-04-28T09:00:00Z", "resultsClicked": ["watch_014"]},
+      {"query": "pilot chronograph", "timestamp": "2022-11-10T10:00:00Z", "resultsClicked": ["watch_006", "watch_007"]}
+    ],
+    "browsingBehavior": {
+      "averageSessionDuration": 680,
+      "pagesPerSession": 14.2,
+      "bounceRate": 0.12,
+      "deviceTypes": {"mobile": 0.45, "desktop": 0.50, "tablet": 0.05},
+      "preferredBrowsingTime": "weekend_morning"
+    },
+    "cartAbandonment": [
+      {
+        "date": "2024-01-12T21:00:00Z",
+        "items": [{"productId": "watch_005", "quantity": 1}],
+        "cartValue": 125000.00,
+        "reason": "price_consideration"
+      }
+    ],
+    "inferredInterests": {
+      "fromPhoneListening": [
+        {
+          "topic": "extreme_sports",
+          "confidence": 0.89,
+          "detectedAt": "2024-01-14T07:30:00Z",
+          "context": "planning_himalaya_expedition"
+        },
+        {
+          "topic": "diving_certification",
+          "confidence": 0.92,
+          "detectedAt": "2024-01-10T18:30:00Z",
+          "context": "technical_diving_course"
+        },
+        {
+          "topic": "aviation",
+          "confidence": 0.78,
+          "detectedAt": "2024-01-06T15:00:00Z",
+          "context": "pilot_license_discussion"
+        }
+      ],
+      "fromSocialMedia": ["adventure_travel", "mountaineering", "scuba_diving", "aviation"],
+      "fromLocationData": ["sports_equipment_stores", "diving_shops", "airport_lounges", "outdoor_gear"]
+    },
+    "customerScore": {
+      "loyaltyScore": 8.7,
+      "churnRisk": 0.15,
+      "recommendationAffinity": 0.92,
+      "pricesSensitivity": 0.35
+    }
+  },
+  {
+    "id": "cust_004",
+    "email": "sophia.anderson@email.com",
+    "firstName": "Sophia",
+    "lastName": "Anderson",
+    "phone": "+1-555-0404",
+    "dateOfBirth": "1992-04-18",
+    "gender": "female",
+    "createdAt": "2023-03-20T09:00:00Z",
+    "lastLoginAt": "2024-01-21T07:30:00Z",
+    "status": "active",
+    "tier": "silver",
+    "lifetimeValue": 45600.00,
+    "address": {
+      "street": "321 Michigan Avenue",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "preferences": {
+      "newsletter": true,
+      "smsNotifications": true,
+      "pushNotifications": false,
+      "preferredCategories": ["Classic", "Dress", "Ladies"],
+      "communicationChannel": "email"
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "order_8243",
+        "date": "2024-01-19T16:45:00Z",
+        "total": 13300.00,
+        "items": [
+          {"productId": "watch_013", "quantity": 1, "price": 7500.00},
+          {"productId": "watch_018", "quantity": 1, "price": 5800.00}
+        ],
+        "status": "processing"
+      },
+      {
+        "orderId": "order_7205",
+        "date": "2023-10-08T12:00:00Z",
+        "total": 8200.00,
+        "items": [
+          {"productId": "watch_009", "quantity": 1, "price": 8200.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_6145",
+        "date": "2023-07-25T14:30:00Z",
+        "total": 6800.00,
+        "items": [
+          {"productId": "watch_004", "quantity": 1, "price": 6800.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_5678",
+        "date": "2023-05-10T10:15:00Z",
+        "total": 8500.00,
+        "items": [
+          {"productId": "watch_001", "quantity": 1, "price": 8500.00}
+        ],
+        "status": "delivered"
+      }
+    ],
+    "searchHistory": [
+      {"query": "ultra thin dress watch", "timestamp": "2024-01-18T20:00:00Z", "resultsClicked": ["watch_013", "watch_004"]},
+      {"query": "ladies minimalist", "timestamp": "2024-01-18T19:50:00Z", "resultsClicked": ["watch_018"]},
+      {"query": "moonphase classic", "timestamp": "2023-10-06T10:00:00Z", "resultsClicked": ["watch_009", "watch_001"]},
+      {"query": "rose gold watches", "timestamp": "2023-07-20T15:00:00Z", "resultsClicked": ["watch_004", "watch_017"]}
+    ],
+    "browsingBehavior": {
+      "averageSessionDuration": 520,
+      "pagesPerSession": 11.8,
+      "bounceRate": 0.18,
+      "deviceTypes": {"mobile": 0.55, "desktop": 0.40, "tablet": 0.05},
+      "preferredBrowsingTime": "lunch_break"
+    },
+    "cartAbandonment": [],
+    "inferredInterests": {
+      "fromPhoneListening": [
+        {
+          "topic": "fashion_week",
+          "confidence": 0.87,
+          "detectedAt": "2024-01-17T14:00:00Z",
+          "context": "milan_fashion_week_plans"
+        },
+        {
+          "topic": "art_deco_design",
+          "confidence": 0.82,
+          "detectedAt": "2024-01-12T19:30:00Z",
+          "context": "interior_design_discussion"
+        },
+        {
+          "topic": "wine_collecting",
+          "confidence": 0.75,
+          "detectedAt": "2024-01-08T20:00:00Z",
+          "context": "bordeaux_vintage_conversation"
+        }
+      ],
+      "fromSocialMedia": ["fashion", "architecture", "wine_enthusiast", "travel"],
+      "fromLocationData": ["art_museums", "fashion_boutiques", "wine_shops", "cultural_events"]
+    },
+    "customerScore": {
+      "loyaltyScore": 8.2,
+      "churnRisk": 0.20,
+      "recommendationAffinity": 0.85,
+      "pricesSensitivity": 0.45
+    }
+  },
+  {
+    "id": "cust_005",
+    "email": "robert.davidson@email.com",
+    "firstName": "Robert",
+    "lastName": "Davidson",
+    "phone": "+1-555-0505",
+    "dateOfBirth": "1968-09-12",
+    "gender": "male",
+    "createdAt": "2021-08-15T13:30:00Z",
+    "lastLoginAt": "2024-01-20T22:15:00Z",
+    "status": "active",
+    "tier": "platinum",
+    "lifetimeValue": 567890.00,
+    "address": {
+      "street": "567 Ocean Drive",
+      "city": "Miami Beach",
+      "state": "FL",
+      "zipCode": "33139",
+      "country": "USA"
+    },
+    "preferences": {
+      "newsletter": true,
+      "smsNotifications": false,
+      "pushNotifications": true,
+      "preferredCategories": ["Haute Horlogerie", "Limited Edition", "Complication"],
+      "communicationChannel": "email"
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "order_8238",
+        "date": "2024-01-14T19:30:00Z",
+        "total": 450000.00,
+        "items": [
+          {"productId": "watch_015", "quantity": 1, "price": 450000.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_7176",
+        "date": "2023-06-20T15:00:00Z",
+        "total": 68000.00,
+        "items": [
+          {"productId": "watch_010", "quantity": 1, "price": 68000.00}
+        ],
+        "status": "delivered"
+      },
+      {
+        "orderId": "order_6089",
+        "date": "2022-12-10T11:30:00Z",
+        "total": 125000.00,
+        "items": [
+          {"productId": "watch_005", "quantity": 1, "price": 125000.00}
+        ],
+        "status": "delivered"
+      }
+    ],
+    "searchHistory": [
+      {"query": "grande sonnerie", "timestamp": "2024-01-13T21:00:00Z", "resultsClicked": ["watch_015"]},
+      {"query": "minute repeater tourbillon", "timestamp": "2024-01-13T20:45:00Z", "resultsClicked": ["watch_005", "watch_015"]},
+      {"query": "skeleton platinum", "timestamp": "2023-06-18T14:00:00Z", "resultsClicked": ["watch_010"]},
+      {"query": "haute horlogerie masterpiece", "timestamp": "2022-12-08T10:00:00Z", "resultsClicked": ["watch_005", "watch_010", "watch_015"]}
+    ],
+    "browsingBehavior": {
+      "averageSessionDuration": 1450,
+      "pagesPerSession": 28.5,
+      "bounceRate": 0.03,
+      "deviceTypes": {"mobile": 0.20, "desktop": 0.70, "tablet": 0.10},
+      "preferredBrowsingTime": "late_evening"
+    },
+    "cartAbandonment": [],
+    "inferredInterests": {
+      "fromPhoneListening": [
+        {
+          "topic": "watch_auctions",
+          "confidence": 0.95,
+          "detectedAt": "2024-01-19T20:00:00Z",
+          "context": "phillips_auction_preview"
+        },
+        {
+          "topic": "yacht_racing",
+          "confidence": 0.88,
+          "detectedAt": "2024-01-15T16:00:00Z",
+          "context": "americas_cup_discussion"
+        },
+        {
+          "topic": "classic_cars",
+          "confidence": 0.91,
+          "detectedAt": "2024-01-10T11:00:00Z",
+          "context": "ferrari_collection_talk"
+        }
+      ],
+      "fromSocialMedia": ["watch_collecting", "classic_automobiles", "yachting", "fine_cigars"],
+      "fromLocationData": ["yacht_club", "auction_houses", "private_jets", "exclusive_resorts"]
+    },
+    "customerScore": {
+      "loyaltyScore": 9.9,
+      "churnRisk": 0.01,
+      "recommendationAffinity": 0.98,
+      "pricesSensitivity": 0.05
+    }
+  }
+]
