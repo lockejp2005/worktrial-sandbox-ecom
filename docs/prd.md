@@ -1,8 +1,8 @@
 # START PROJECT DESCRIPTION (FOR ALL AGENTS TO READ)
 
-This is a PRD for an ecommerce template, this is a project template so we can ask a candidate being assessed for a job interview to finish off an assess their capability. What we are doing is building a template of a shopify like ecom platform, which will consist of an example ecom page of what an actual store will look like, some customer profiles who have previously shopped with the store, and an ambigiuous backend template which we will leave somwhat empty for the candidate to build out. 
+This is a PRD for an ecommerce template, this is a project template so we can ask a candidate being assessed for a job interview to finish off and assess their capability. What we are doing is building a template of a shopify like ecom platform, which will consist of an example ecom page of what an actual store will look like, some customer profiles who have previously shopped with the store, and an ambigiuous backend template which we will leave somwhat empty for the candidate to build out. 
 
-The ide will be that the candidate builds out mainly the backstore side, with an example store front page and some example customer profiles the candidate needs to determine what logic on the backend could best help a seller manage, improve and maintain their store. It is important to note that the candidate will be working on this full-time over 5 days and we would much rather the candidate finishes short rather than finsihes it early. Project should be somewhat complex for this reason. 
+The idea will be that the candidate builds out mainly the backstore side, with an example store front page and some example customer profiles the candidate needs to determine what logic on the backend could best help a seller manage, improve and maintain their store. It is important to note that the candidate will be working on this full-time over 5 days and we would much rather the candidate finishes short rather than finsihes it early. Project should be somewhat complex for this reason. 
 
 Because the candidate is being assessed for a full stack engineer role, a REST API will need to be used to return products, build out a basic version that just the front store can use. 
 
@@ -26,7 +26,7 @@ Also read through other agents spec to understand full working environment.
 
 ## START BACKSTORE FRONT END AGENT
 
-You will buiild out the front end for the back store of the eccommerce platform, this should be mostly ambigious and with lots of place to grow as this will be the main part where the candidate is assessed. Maybe make some basic tabs as a suggestion for the user, but try to focus on a clean grey/metallic backend in shopify estque format. Focus mainly on the style, functionaltiy will be the candidate. 
+You will build out the front end for the back store of the eccommerce platform, this should be mostly ambigious and with lots of place to grow as this will be the main part where the candidate is assessed. Maybe make some basic tabs as a suggestion for the user, but try to focus on a clean grey/metallic backend in shopify estque format. Focus mainly on the style, functionaltiy will be the candidate. 
 
 Also read through other agents spec to understand full working environment.
 
