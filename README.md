@@ -45,5 +45,5 @@ Pick 2 from this list to build beyond the basics:
 
 ```bash
 npm install
-# test read me
+# test read me2
 npm run dev
